@@ -18,14 +18,9 @@ button {
   --font-for-body: Geosans;
 }
 
-@font-face {
-  font-family: Geosans;
-  src: url(./assets/fonts/GeosansLight.ttf);
-}
-
 body {
   background-color: black;
-  font-family: Geosans;
+  font-family: 'Geosans', sans-serif;
   color: #f4f4f4;
   box-sizing: border-box;
   padding: 20px;
