@@ -1,0 +1,173 @@
+[
+    {
+        "imageSrc": "./assets/images/MyBulgakov.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/MyBulgakovBIG.jpg",
+        "txt": "My Bulgakov", 
+        "txt1": "Oil on Canvas, 60 cm x 80 cm",
+        "txt2": "NOT FOR SALE"
+    },
+    {
+        "imageSrc": "./assets/images/AlmostJazz.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/AlmostJazzBIG.jpg",
+        "txt": "Almost Jazz",
+        "txt1": "Oil on Canvas, 60 cm x 80 cm ",
+        "txt2":  "9500$"
+    },
+    {
+        "imageSrc": "./assets/images/Inception.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/InceptionBIG.jpg",
+        "txt": "Inception", 
+        "txt1": "Oil on Canvas, 60 cm x 80 cm ",
+        "txt2": "NOT FOR SALE" 
+    },
+    {
+        "imageSrc": "./assets/images/Mozart.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/MozartBIG.jpg",
+        "txt": "Mozart",
+        "txt1": "Oil on Canvas, 80 cm x 100 cm",
+        "txt2": "21000$"
+    },
+    {
+        "imageSrc": "./assets/images/Wound.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/WoundBIG.jpg",
+        "txt": "Wound",
+        "txt1": "Oil on Canvas, 80 cm x 60 cm ",
+        "txt2": "18000$" 
+    },
+    {
+        "imageSrc": "./assets/images/Smiljan.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/SmiljanBIG.jpg",
+        "txt": "Smiljan",
+        "txt1": "Oil on Canvas, 80 cm x 60 cm ",
+        "txt2": "8500$" 
+    },
+    {
+        "imageSrc": "./assets/images/Goddess.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/GoddessofDeathBIG.jpg",
+        "txt": "Goddess of Death", 
+        "txt1": "Oil on Canvas, 100 cm x 80 cm ",
+        "txt2": "NOT FOR SALE"
+    },
+    {
+        "imageSrc": "./assets/images/ForbiddenColors.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/ForbiddenBIG.jpg",
+        "txt": "Forbidden Colors", 
+        "txt1": "Oil on Canvas, 100 cm x 80 cm ",
+        "txt2": "15000$" 
+    },
+    {
+        "imageSrc": "./assets/images/Vogue.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/VogueBIG.jpg",
+        "txt": "Vogue", 
+        "txt1": "Oil on Canvas, 90 cm x 120 cm ",
+        "txt2": "NOT FOR SALE" 
+    },
+    {
+        "imageSrc": "./assets/images/BlackMagic.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/BlackMagicBIG.jpg",
+        "txt": "Black Magic", 
+        "txt1": "Oil on Canvas, 60 cm x 80 cm ",
+        "txt2": "12000$" 
+    },
+    {
+        "imageSrc": "./assets/images/FreeFalling.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/FreefallingBIG.jpg",
+        "txt": "Free Falling", 
+        "txt1": "Oil on Canvas, 60 cm x 80 cm ",
+        "txt2": "13000$" 
+    },
+    {
+        "imageSrc": "./assets/images/Druid.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/DruidBIG.jpg",
+        "txt": "Druid", 
+        "txt1": "Oil on Canvas, 50 cm x 70 cm ",
+        "txt2": "7000$" 
+    },
+
+    {
+        "imageSrc": "./assets/images/Turbulence.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/TurbulenceBIG.jpg",
+        "txt": "Turbulence", 
+        "txt1": "Oil on Canvas, 60 cm x 80 cm ",
+        "txt2": "13000$" 
+    },
+    {
+        "imageSrc": "./assets/images/SummerStorm.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/SummerStormBIG.jpg",
+        "txt": "Summer Storm", 
+        "txt1": "Oil on Canvas, 40 cm x 60 cm ",
+        "txt2": "8000$" 
+    },
+    {
+        "imageSrc": "./assets/images/PoppiesOnMars.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/PoppiesMarsBIG.jpg",
+        "txt": "Poppies of Mars", 
+        "txt1": "Oil on Canvas, 40 cm x 60 cm ",
+        "txt2": "NOT FOR SALE" 
+    },
+    {
+        "imageSrc": "./assets/images/Calling.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/CallingBIG.jpg",
+        "txt": "Calling", 
+        "txt1": "Oil on Canvas, 50 cm x 60 cm ",
+        "txt2": "7000$" 
+    },
+    {
+        "imageSrc": "./assets/images/CrushedDesire.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/CrushedDesiresBIG.jpg",
+        "txt": "Crushed Desires", 
+        "txt1": "Oil on Canvas, 100 cm x 80 cm ",
+        "txt2": "8500$" 
+    },
+    {
+        "imageSrc": "./assets/images/Summertime.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/SummertimeBIG.jpg",
+        "txt": "Summertime Sadness", 
+        "txt1": "Oil on Canvas, 80 cm x 60 cm ",
+        "txt2": "3500$" 
+    },
+    {
+        "imageSrc": "./assets/images/Synapsis.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/SynapsysBIG.jpg",
+        "txt": "Synapsys", 
+        "txt1": "Oil on Canvas, 80 cm x 60 cm ",
+        "txt2": "13500$" 
+    },
+
+    {
+        "imageSrc": "./assets/images/ErasingMemories.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/ErasingMemoriesBIG.jpg",
+        "txt": "Erasing Memories", 
+        "txt1": "Oil on Canvas, 100 cm x 60 cm ",
+        "txt2": "12500$" 
+    },
+    {
+        "imageSrc": "./assets/images/ChaplinInLove.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/ChaplinBIG.jpg",
+        "txt": "Chaplin in Love", 
+        "txt1": "Oil on Canvas, 60 cm x 40 cm ",
+        "txt2": "12000$" 
+    },
+    {
+        "imageSrc": "./assets/images/MedusaGorgona.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/MedusaGorgonaBIG.jpg",
+        "txt": "Medusa Gorgona", 
+        "txt1": "Oil on Canvas, 45 cm x 30 cm ",
+        "txt2": "NOT FOR SALE" 
+    },
+    {
+        "imageSrc": "./assets/images/Split.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/SplitBIG.jpg",
+        "txt": "Split", 
+        "txt1": "Oil on Canvas, 60 cm x 40 cm ",
+        "txt2": "7000$" 
+    },
+    {
+        "imageSrc": "./assets/images/DarkTran.jpg",
+        "lrgImageSrc": "./assets/imagesLRG/DarktranquilityBIG.jpg",
+        "txt": "Dark Tranquility", 
+        "txt1": "Oil on Canvas, 100 cm x 70 cm ",
+        "txt2": "14000$" 
+    }
+
+]
