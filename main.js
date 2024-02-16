@@ -31,8 +31,11 @@ fetch("data.json")
       out += `
 
         <div class="box">
-            <a href="${image.lrgImageSrc}" data-lightbox ="mygallery">
+            <a href="${image.lrgImageSrc}" data-lightbox="mygallery">
+              <picture>
+                <source srcset="${image.lrgImageSrc}" media="(min-width: 650px)">
                 <img src="${image.imageSrc}" alt="images" class="images" loading="lazy">
+              </picture>
             </a>
             <div class="description">
                 <h2 class="titles">${image.txt}</h2>
@@ -50,4 +53,6 @@ fetch("data.json")
   });
 
 
-
+            // <a href="${image.lrgImageSrc}" data-lightbox ="mygallery">
+            //     <img src="${image.imageSrc}" alt="images" class="images" loading="lazy">
+            // </a>
