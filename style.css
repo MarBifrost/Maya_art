@@ -15,28 +15,33 @@ button {
 :root {
   --color-for-body: black;
   --font-for-body: Geosans;
+  --color-for-fonts: #f4f4f4;
 }
 
 @font-face {
   font-family: Geosans;
-  src: url(./assets/fonts/GeosansLight.ttf);
+  src: url(./assets/fonts/GeosansLight.ttf) format("truetype");
 }
 
 body {
   background-color: var(--color-for-body);
   font-family: var(--font-for-body);
-  color: #f4f4f4;
   box-sizing: border-box;
   padding: 20px;
   margin: 0;
   overflow-x: hidden;
 }
 
+body, .description {
+  color: var(--color-for-fonts);
+}
+
 header {
   display: flex;
   flex-direction: column;
-  max-width: 150rem;
-  width: 100%;
+  width: 150rem;
+  max-width: 100%;
+  min-width: 50%;
   margin: 0 auto;
 }
 
@@ -54,15 +59,16 @@ header {
   font: 700;
   margin: 1rem;
   cursor: pointer;
-  display: flex; /* Removed duplication */
+  display: flex; 
 }
 
 .details_about_me {
   width: 100%;
+  text-align: justify;
   font-size: 2.2rem;
   letter-spacing: 0.5px;
   line-height: 1.4em;
-  margin: 2rem;
+  padding: 1rem 1rem;
 }
 
 .hidden-data {
@@ -70,15 +76,31 @@ header {
 }
 
 .details {
-  width: 90%;
+  max-width: 96%;
+}
+
+.image_about_me {
+  max-width: 100%;
+  width: 250px;
+  height: auto;
+}
+
+.arrow {
+  width: 20px;
+  height: 27px;
+  filter: invert(100%) sepia(98%) saturate(8%) hue-rotate(192deg) brightness(104%) contrast(102%);
+  cursor: pointer;
+  margin-left: 9px;
+  margin-top: 10px;
 }
 
 .line {
   width: 100%;
   max-width: 150rem;
-  height: 50px;
-  border-bottom: 0.5px solid rgb(198, 216, 211);
+  height: 0.1rem;
   margin: 0 auto;
+  background-color: var(--color-for-fonts);
+  margin-top: 1.5rem;
 }
 
 .container {
@@ -120,22 +142,7 @@ header {
   transform: scale(1.1);
 }
 
-.image_about_me {
-  max-width: 200px;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-}
 
-.arrow {
-  width: 20px;
-  height: 27px;
-  filter: invert(100%) sepia(98%) saturate(8%) hue-rotate(192deg) brightness(104%) contrast(102%);
-  cursor: pointer;
-  margin-left: 9px;
-  margin-top: 10px;
-}
 
 .description {
   margin-top: 20px;
@@ -143,7 +150,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #f4f4f4;
   line-height: 2em;
 }
 
@@ -231,15 +237,6 @@ footer {
 }
 
 @media only screen and (max-width: 1025px) {
-  body {
-    width: auto;
-    max-width: 100%;
-  }
-
-  header {
-    width: auto;
-    max-width: 100%;
-  }
 
   .footer_body {
     flex-direction: column-reverse;
@@ -262,11 +259,6 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  header {
-    width: auto;
-    max-width: 100%;
-    margin: 0 auto;
-  }
 
   .container {
     grid-template-columns: 1fr 1fr;
@@ -296,10 +288,10 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-  header {
+  /* header {
     width: auto;
     max-width: 100%;
-  }
+  } */
 
   .header_text {
     max-width: 50%;
