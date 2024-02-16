@@ -12,23 +12,25 @@ button {
   cursor: revert;
 }
 
-
 :root {
   --color-for-body: black;
   --font-for-body: Geosans;
 }
 
+@font-face {
+  font-family: Geosans;
+  src: url(./assets/fonts/GeosansLight.ttf);
+}
+
 body {
-  background-color: black;
-  font-family: 'Geosans', sans-serif;
+  background-color: var(--color-for-body);
+  font-family: var(--font-for-body);
   color: #f4f4f4;
   box-sizing: border-box;
   padding: 20px;
   margin: 0;
-
+  overflow-x: hidden;
 }
-
-
 
 header {
   display: flex;
@@ -52,6 +54,7 @@ header {
   font: 700;
   margin: 1rem;
   cursor: pointer;
+  display: flex; /* Removed duplication */
 }
 
 .details_about_me {
@@ -134,11 +137,6 @@ header {
   margin-top: 10px;
 }
 
-
-.about_btn {
-  display: flex;
-}
-
 .description {
   margin-top: 20px;
   font-size: 1.5rem;
@@ -153,7 +151,7 @@ main .poppup_images {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgb(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.9); /* Changed from rgb to rgba */
   height: 100%;
   width: 100%;
   z-index: 100;
@@ -232,54 +230,43 @@ footer {
   font-weight: 600;
 }
 
-
-
 @media only screen and (max-width: 1025px) {
-
   body {
     width: auto;
     max-width: 100%;
   }
 
-
   header {
-   width: auto;
-   max-width: 100%;
- }
+    width: auto;
+    max-width: 100%;
+  }
 
- .footer_body {
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
- }
+  .footer_body {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
 
+  .details_about_me {
+    font-size: 2rem;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-
-
-.details_about_me {
-  font-size: 2rem;
-  max-width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  .dtl_p {
+    margin-top: 55px;
+  }
 }
-.dtl_p {
-  margin-top: 55px;
-}
-
-
-
-}
-
 
 @media only screen and (max-width: 768px) {
-   header {
+  header {
     width: auto;
     max-width: 100%;
     margin: 0 auto;
   }
-
 
   .container {
     grid-template-columns: 1fr 1fr;
@@ -292,7 +279,7 @@ footer {
     max-width: 70%;
   }
 
-   .contact_details {
+  .contact_details {
     width: auto;
     max-width: 100%;
     display: flex;
@@ -304,30 +291,20 @@ footer {
   .dtl_p {
     margin-top: 5px;
     width: 100%;
-    text-justify:newspaper ;
+    text-justify: newspaper;
   }
-
-
-
-
 }
 
 @media only screen and (max-width: 480px) {
-
-
   header {
     width: auto;
-    max-width: 100%;;
+    max-width: 100%;
   }
-
-
-
 
   .header_text {
     max-width: 50%;
     font-size: 4.2rem;
   }
-
 
   .about_btn span {
     max-width: 90%;
@@ -337,13 +314,9 @@ footer {
   .container {
     grid-template-columns: 1fr;
   }
-
-
-  
-} 
+}
 
 @media only screen and (max-width: 360px) {
-
   .header_text {
     font-size: 2.5rem;
   }
@@ -357,12 +330,13 @@ footer {
     margin-top: 0px;
   }
 
- .rigths{
+  .rigths {
     font-size: 1.5rem;
     margin-top: -22px;
   }
 
-  .get_in_touch, .spn_mail {
+  .get_in_touch,
+  .spn_mail {
     font-size: 1.9rem;
   }
 
@@ -370,17 +344,15 @@ footer {
     font-size: 1.4rem;
   }
 
-  .smartphone_icon, .email_icon {
+  .smartphone_icon,
+  .email_icon {
     width: 5%;
     height: auto;
   }
 
-
-   .contact_details :nth-child(2), .contact_details :nth-child(3) {
+  .contact_details :nth-child(2),
+  .contact_details :nth-child(3) {
     margin-left: 15px;
     margin-top: 5px;
-   }
-
-
+  }
 }
-
